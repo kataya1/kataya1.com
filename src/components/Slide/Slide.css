@@ -1,0 +1,21 @@
+.slide {
+    width: 100vw;
+    height: 100vh;
+    font-size: 50px;
+    overflow-y: scroll;
+    overflow-x: clip;
+    scroll-snap-align: start;
+    padding-bottom: 40px;
+}
+
+.slide:nth-child(3n) {
+    background-color: #ccc;
+}
+
+.slide:nth-child(3n+1) {
+    background-color: #eee;
+}
+
+.slide:nth-child(3n+2) {
+    background-color: #aaa;
+}

@@ -1,0 +1,43 @@
+.Nav {
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+
+    background-color: #335;
+    color: white;
+    gap: 2vh;
+    position: fixed;
+    justify-content: space-evenly;
+
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.Nav a {
+    min-width: 7px;
+    padding: 2vw;
+}
+
+.Nav a:visited {
+    color: white;
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .Nav {
+        flex-direction: column;
+        gap: 2vh;
+        right: 1%;
+        top: 50%;
+        left: unset;
+        bottom: unset;
+        transform: translateY(-50%)
+    }
+
+    .Nav a {
+        min-width: 7px;
+        padding: 2vh;
+    }
+}
